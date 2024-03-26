@@ -1,0 +1,86 @@
+
+
+
+h1{
+    .kalam-light {
+        font-family: "Kalam", cursive;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .kalam-regular {
+        font-family: "Kalam", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .kalam-bold {
+        font-family: "Kalam", cursive;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+}
+   
+ header {
+    background-color: #e3d3d3;
+    padding: 15px;
+  }
+  
+  header h1 {
+    float: right;
+  }
+  .menu {
+    display: flex;
+    background-color: #e3d3d3;
+    padding: 5px;
+    float: right;
+  }
+
+  .menu a {
+    color: rgb(239, 156, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  menu a:hover {
+    background-color: #ddd;
+  }
+  .contenido {
+    margin-top: 5px;
+  }
+  #imagen {
+    width: 300px;
+    height: 300px;
+  }
+  .texto {
+    /* modifica la tipografia*/
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* modifica el tamaño de la letra*/
+    font-size: small;
+  }
+  .contenido {
+    margin-top: 5px;
+  }
+  #imagen {
+    width: 300px;
+    height: 300px;
+  }
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 600px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 600px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    object-fit: cover; /* Para mantener la proporción de aspecto */
+    margin-bottom: 20px;
+}
+body {
+    background-color: turquoise;
+}
